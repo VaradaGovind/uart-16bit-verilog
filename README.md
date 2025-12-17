@@ -1,2 +1,2 @@
-# uart-16bit-verilog
-Synthesizable 16-bit UART (TX/RX) in Verilog with Even Parity. Features a robust receiver with double-flop synchronization, noise filtering, and atomic data updates. Fully parametric design with a self-checking testbench included.
+# uart-16bit-even-parity-verilog
+A lightweight, hardware-efficient Universal Asynchronous Receiver/Transmitter (UART) core implemented in Verilog.
