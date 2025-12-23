@@ -45,8 +45,7 @@ module uart_rx (
                 baud_cnt <= HALF_BAUD;
                 bit_cnt <= 0;
                 $display("TIME %t: RX Start Bit Detected", $time);
-            end
-            
+            end     
             else if (rx_busy) begin
                 if (baud_cnt == BAUD_DIV - 1) begin
                     baud_cnt <= 0;
